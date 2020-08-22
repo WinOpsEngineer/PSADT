@@ -61,15 +61,15 @@ Try {
 	##* VARIABLE DECLARATION
 	##*===============================================
 	## Variables: Application
-	[string]$appVendor = ''
+	[string]$appVendor = 'hcdpbc'
 	[string]$appName = 'Jenkins'
 	[string]$appVersion = '1.0.1.0'
 	[string]$appArch = ''
 	[string]$appLang = 'EN'
 	[string]$appRevision = '01'
 	[string]$appScriptVersion = '1.0.0'
-	[string]$appScriptDate = '02/12/2017'
-	[string]$appScriptAuthor = '<author name>'
+	[string]$appScriptDate = '08/22/2020'
+	[string]$appScriptAuthor = 'halex'
 	##*===============================================
 	## Variables: Install Titles (Only set here to override defaults set by the toolkit)
 	[string]$installName = ''
@@ -123,7 +123,7 @@ Try {
 		#Show-InstallationProgress
 		
 		## <Perform Pre-Installation tasks here>
-	$icon = 'Jenkins.ico'
+	    $icon = 'Jenkins.ico'
         $icon_file = Join-Path  "$dirfiles" "$icon"
         $target = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
         $workdir = "C:\Program Files (x86)\Google\Chrome\Application"
