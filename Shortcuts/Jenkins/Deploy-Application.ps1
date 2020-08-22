@@ -123,7 +123,7 @@ Try {
 		#Show-InstallationProgress
 		
 		## <Perform Pre-Installation tasks here>
-		$icon = 'Jenkins.ico'
+	$icon = 'Jenkins.ico'
         $icon_file = Join-Path  "$dirfiles" "$icon"
         $target = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
         $workdir = "C:\Program Files (x86)\Google\Chrome\Application"
